@@ -1,0 +1,57 @@
+html{
+    background-color: rgb(17, 221, 34);
+}
+
+.bodybox{
+    margin: auto;
+    text-align: center;
+    color: red;
+    background-color: aqua;
+    border: 10px solid black;
+    height: 900px;
+    width: 600px;
+    padding: 10px;
+    border-radius: 5%;
+
+}
+.grid{
+    margin-top: 35px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, auto);
+}
+
+.function{
+    margin: auto;
+    background-color: gray;
+    color: white;
+    height: 125px;
+    width: 125px;
+    font-size: 45px;
+    text-align: center;
+    border-radius: 15px;
+}
+.screenbox{
+    height: 75px;
+   width: 525x;
+   padding: 20px;
+   border-radius: 15px;
+   background-color: white;
+   color: Black;
+   display: block;
+   
+   text-align: right;
+   font-family: "Helvetica", sans-serif;
+}
+p2{
+     position: relative;
+    font-size: 25px;
+}
+.curr{
+    font-family: "Helvetica", sans-serif;
+    font-size: 40px;
+}
+.prev{
+    font-family: "Helvetica", sans-serif;
+  font-size: 20px;
+}
